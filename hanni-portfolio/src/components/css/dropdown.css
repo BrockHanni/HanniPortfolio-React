@@ -1,0 +1,21 @@
+#dropdown {
+    /* By default, it will be hidden when isDropdownOpen is false */
+    display: none;
+  }
+  
+  #dropdownDefaultButton:focus + #dropdown,
+  #dropdown:hover {
+    /* Show the dropdown when the button is focused (e.g., clicked) or when hovering over it */
+    display: block;    
+  }
+  
+  /* Adjust the positioning */
+  #dropdownDefaultButton {
+    position: relative;
+    
+  }
+  
+  #dropdown {
+    position: absolute;
+    top: 100%;
+  }

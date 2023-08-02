@@ -1,10 +1,10 @@
 import React from 'react';
-import { ProjectsData } from '../Projectdata.js';
+// import { ProjectsData } from '../Projectdata.js';
 export default function Projects() {
     // Take data from ProjectsData.js and map it to the DOM
     return (
         <section id="projects">
-            <div className="container">
+            {/* <div className="container">
                 <h1 className="section-title">Check out my work</h1>
             </div>
             <div className="">
@@ -21,7 +21,7 @@ export default function Projects() {
                 {ProjectsData.map((project) => (
                     <h1>{project.title}</h1>
                 ))}
-            </div>
+            </div> */}
 
 
         </section>

@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set the carousel section size */
+.carousel-section {
+    width: 45%; /* Adjust the width as needed */
+    /* margin: 0 auto; Center the section horizontally */
+    position: relative; /* To use absolute positioning for the carousel items */
+    background-color: #898989;
+    color: white;
+    float: right;
+    margin-right: 5%;
+    min-height: 20%;
+    max-height: 20%;
+    
+  }
+  /* Adjust the carousel item layout */
+  .carousel .slider-wrapper .carousel-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .carousel .slider-wrapper .carousel-item-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .carousel .slider-wrapper .carousel-item-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .carousel .slider-wrapper .carousel-item img {
+    max-height: 100%;
+  }
+
+  /* Adjust the "Get to know me" section */
+  .about-me-section {
+    width: 45%; /* Adjust the width as needed */
+    float: left; /* Float the "Get to know me" section to the left */
+    padding: 20px;
+    height: 20%;
+    margin-left: 5%;
+  }

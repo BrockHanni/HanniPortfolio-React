@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
 
-    <main className="">
+    <main className="text-transparent bg-gradient-to-br from-green to-grey">
       <Header />
       <About />
       <Projects />
@@ -22,3 +22,10 @@ export default function App() {
     </main>
   );
 }
+
+// transparent: "#e7eee8",
+// red: '490727',
+// lightGreen: '#bacec3',
+// teal:'#5e8d74',
+// green:'074929',
+// grey: '#838383',
