@@ -87,6 +87,13 @@ const Contact = () => {
             </div>
           </form>
           </section>
+          <section className='text-center'>
+                <p className="text-2xl font-bold text-brown">Email me</p>
+                <p className="text-xl text-lightGreen">Hannibr26@gmail.com</p>
+                <br />
+                <p className="text-2xl font-bold text-brown">Call me</p>
+                <p className="text-xl text-lightGreen">1-801-647-1286</p>
+          </section>
         </div>
       );
     };
