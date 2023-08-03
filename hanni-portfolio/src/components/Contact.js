@@ -28,7 +28,7 @@ const Contact = () => {
 
         <div className="">
             <section className='text-center'>
-                <p className="text-2xl font-bold text-lightGreen">Contact Me</p>
+                <p className="text-2xl font-bold text-brown">Contact Me</p>
             </section>
             <section className="flex justify-center items-center">
           <form className="bg-white shadow-2xl rounded px-8 pb-8 mb-4" onSubmit={handleSubmit}>

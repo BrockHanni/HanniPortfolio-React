@@ -9,8 +9,8 @@ export default function Projects() {
         <section className='w-screen mt-20'>
          <section id="projects">
             <div className="text-center mb-10">
-                <h1 className="section-title text-2xl">Check out my work</h1>
-                <p>Click on the images to see the app</p>
+                <h1 className="text-2xl font-bold text-brown">Check out my work</h1>
+                <p className='text-xl text-lightGreen'>Click on the images to see the app</p>
             </div>
             <div className="">
             <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} className="project-section items-center rounded-2xl">
