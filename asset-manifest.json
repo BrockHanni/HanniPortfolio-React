@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hanni-portfolio/static/css/main.5d3aea6f.css",
-    "main.js": "/hanni-portfolio/static/js/main.629393b4.js",
-    "static/js/787.6bc3a3f5.chunk.js": "/hanni-portfolio/static/js/787.6bc3a3f5.chunk.js",
-    "index.html": "/hanni-portfolio/index.html",
-    "main.5d3aea6f.css.map": "/hanni-portfolio/static/css/main.5d3aea6f.css.map",
-    "main.629393b4.js.map": "/hanni-portfolio/static/js/main.629393b4.js.map",
-    "787.6bc3a3f5.chunk.js.map": "/hanni-portfolio/static/js/787.6bc3a3f5.chunk.js.map"
+    "main.css": "/HanniPortfolio-React/static/css/main.5d3aea6f.css",
+    "main.js": "/HanniPortfolio-React/static/js/main.89e94acc.js",
+    "static/js/787.6bc3a3f5.chunk.js": "/HanniPortfolio-React/static/js/787.6bc3a3f5.chunk.js",
+    "index.html": "/HanniPortfolio-React/index.html",
+    "main.5d3aea6f.css.map": "/HanniPortfolio-React/static/css/main.5d3aea6f.css.map",
+    "main.89e94acc.js.map": "/HanniPortfolio-React/static/js/main.89e94acc.js.map",
+    "787.6bc3a3f5.chunk.js.map": "/HanniPortfolio-React/static/js/787.6bc3a3f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d3aea6f.css",
-    "static/js/main.629393b4.js"
+    "static/js/main.89e94acc.js"
   ]
 }
