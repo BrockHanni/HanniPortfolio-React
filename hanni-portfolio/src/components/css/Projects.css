@@ -4,36 +4,35 @@
 
 /* Set the carousel section size */
 .project-section {
-    width: 80%; /* Adjust the width as needed */
-    /* margin: 0 auto; Center the section horizontally */
-    position: relative; /* To use absolute positioning for the carousel items */
-    background-color: #242526;
-    color: white;
-    float: right;
-    margin-right: 5%;
-    min-height: 20%;
-    max-height: 20%;
-    
-  }
-  /* Adjust the carousel item layout */
-  .carousel .slider-wrapper .project-item {
-    display: flex;
-    align-items: center;
-  }
-  
-  .carousel .slider-wrapper .project-item-content {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    padding: 20px;
-    width: 100%;
-  }
-  
-  .carousel .slider-wrapper .project-item-text {
-    flex: 1;
-    padding-right: 20px;
-  }
-  
-  .carousel .slider-wrapper .project-item img {
-    max-height: 100%;
-  }
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the section horizontally */
+  position: relative; /* To use absolute positioning for the carousel items */
+  background-color: #242526;
+  color: white;
+  min-height: 20%;
+  max-height: 20%;
+}
+
+/* Adjust the carousel item layout */
+.carousel .slider-wrapper .project-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the items horizontally */
+}
+
+.carousel .slider-wrapper .project-item-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  width: 100%;
+}
+
+.carousel .slider-wrapper .project-item-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.carousel .slider-wrapper .project-item img {
+  max-height: 100%;
+}
