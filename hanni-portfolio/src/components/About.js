@@ -7,9 +7,9 @@ import './css/About.css';
 export default function About() {
   return (
     <section>
-    <div className='flow-root'>
+    <div className='flow-root mt-40'>
       <section id="about" className=''>
-        <div className="mx-auto about-me-section float-left items-center bg-teal rounded-2xl">
+        <div className="mx-auto about-me-section float-left items-center bg-green rounded-2xl h-1/6 ml-16">
           <h1 className="text-2xl text-center">Get to know me</h1>
           <p className='text-md text-center'>Check out some of my hobbies on the right!</p>
           <br></br>
@@ -18,11 +18,11 @@ export default function About() {
           <p className='text-md text-center'>I've been coding for nearly 2 years now, and I love the way I can express myself through web development and design!</p>
           <p className='text-md text-center'>I am a hard worker, and I love to learn new things.</p>
         </div>
-          <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} className="carousel-section float-right items-center rounded-2xl">
+          <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} className=" h-1/6 carousel-section float-right items-center rounded-2xl">
             <div className="carousel-item">
               <div className="carousel-item-content">
                 <img
-                  className="transition-all duration-300 rounded-lg cursor-pointer"
+                  className="h-1/6 selection transition-all duration-300 rounded-lg cursor-pointer "
                   src="./assets/images/jazzlogo.jpg"
                   alt="Utah Jazz"
                 />

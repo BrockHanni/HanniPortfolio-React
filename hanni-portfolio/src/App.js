@@ -10,12 +10,12 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
 
-    <main className="text-transparent bg-gradient-to-br from-green to-grey">
+    <main className="text-transparent bg-gradient-to-br from-brown via-grey to-green">
       <Header />
-      <About />
+      <About /> 
+      <Skills />
       <Projects />
       <Resume />
-      <Skills />
       <Contact />
       <Footer />
       
