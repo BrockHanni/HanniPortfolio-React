@@ -56,7 +56,7 @@ export default function Projects() {
                             < a href={ProjectsData[0].link} className='text-lightGreen'> See the code </a>
                         </section>
                         <a href={ProjectsData[0].link}>
-                        <img src={require ("./images/LogoMaker.jpg")} alt={ProjectsData[0].title} className="w-1/3 mt-20" />
+                        <img src={require ("./images/hireMe.jpg")} alt={ProjectsData[0].title} className="w-1/3 mt-20" />
                         </a>                        
                     </div>
                 </div>
