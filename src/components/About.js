@@ -23,7 +23,7 @@ export default function About() {
               <div className="carousel-item-content">
                 <img
                   className="h-1/6 selection transition-all duration-300 rounded-lg cursor-pointer "
-                  src="./assets/images/jazzlogo.jpg"
+                  src={require ("./images/jazzlogo.jpg")}
                   alt="Utah Jazz"
                 />
                 <section>
@@ -41,7 +41,7 @@ export default function About() {
                 
                 <img
                   className="transition-all duration-300 rounded-lg cursor-pointer"
-                  src="./assets/images/movies.jpg"
+                  src={require ("./images/movies.jpg")}
                   alt="Movies"
                 />
                 <section>
@@ -60,7 +60,7 @@ export default function About() {
               <div className="carousel-item-content">
                 <img
                   className="transition-all duration-300 rounded-lg cursor-pointer"
-                  src="./assets/images/outdoors.jpg"
+                  src={require ("./images/outdoors.jpg")}
                   alt="Outdoors"
                 />
                 <section>
@@ -79,7 +79,7 @@ export default function About() {
               <div className="carousel-item-content">
                 <img
                   className="transition-all duration-300 rounded-lg cursor-pointer"
-                  src="./assets/images/gaming.jpg"
+                  src={require ("./images/gaming.jpg")}
                   alt="Gaming"
                 />
                 <section>
@@ -98,7 +98,7 @@ export default function About() {
               <div className="carousel-item-content">
                 <img
                   className="transition-all duration-300 rounded-lg cursor-pointer"
-                  src="./assets/images/basketball.jpg"
+                  src={require ("./images/basketball.jpg")}
                   alt="Basketball"
                 />
                 <section>

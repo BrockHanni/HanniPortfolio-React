@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../components/css/dropdown.css'
 
+
 export default function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -62,7 +63,7 @@ export default function Header() {
           )}
         </div>
         <div className="flex flex-row justify-center space-x-1">
-            <img src='/assets/images/ProfilePic.jpg' alt="Brock Hanni" className="rounded-3xl w-2/5 h-1/4 box-content border-green border-2 shadow-green shadow-md"></img>
+            <img src={require ("./images/ProfilePic.jpg")} alt="Brock Hanni" className="rounded-3xl w-2/5 h-1/4 box-content border-green border-2 shadow-green shadow-md"></img>
         </div>
         <br></br>
         <br></br>
