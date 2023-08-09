@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/HanniPortfolio-React/static/css/main.5d3aea6f.css",
-    "main.js": "/HanniPortfolio-React/static/js/main.2d7e1bb6.js",
+    "main.js": "/HanniPortfolio-React/static/js/main.1d77975a.js",
     "static/js/787.6bc3a3f5.chunk.js": "/HanniPortfolio-React/static/js/787.6bc3a3f5.chunk.js",
     "static/media/ProfilePic.jpg": "/HanniPortfolio-React/static/media/ProfilePic.29156addb40ee4561a96.jpg",
+    "static/media/JHMedical.jpg": "/HanniPortfolio-React/static/media/JHMedical.ba952865cc6b95f0b94e.jpg",
     "static/media/LogoMaker.jpg": "/HanniPortfolio-React/static/media/LogoMaker.8b359665f60a567292f2.jpg",
     "static/media/Portfolio.jpg": "/HanniPortfolio-React/static/media/Portfolio.c4c84639770ec09d7646.jpg",
     "static/media/Readme.jpg": "/HanniPortfolio-React/static/media/Readme.d9089a322bb09cad1b92.jpg",
@@ -15,11 +16,11 @@
     "static/media/outdoors.jpg": "/HanniPortfolio-React/static/media/outdoors.712a5237cf0406e47310.jpg",
     "index.html": "/HanniPortfolio-React/index.html",
     "main.5d3aea6f.css.map": "/HanniPortfolio-React/static/css/main.5d3aea6f.css.map",
-    "main.2d7e1bb6.js.map": "/HanniPortfolio-React/static/js/main.2d7e1bb6.js.map",
+    "main.1d77975a.js.map": "/HanniPortfolio-React/static/js/main.1d77975a.js.map",
     "787.6bc3a3f5.chunk.js.map": "/HanniPortfolio-React/static/js/787.6bc3a3f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d3aea6f.css",
-    "static/js/main.2d7e1bb6.js"
+    "static/js/main.1d77975a.js"
   ]
 }
