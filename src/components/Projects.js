@@ -105,6 +105,22 @@ export default function Projects() {
                         </section>
                     </div>
                 </div>
+                {/* item 7 */}
+                <div className="project-item">
+                    <div className="project-item-content">
+                        <section className='w-1/3'>
+                            <h1 className="text-2xl">{ProjectsData[6].title}</h1>
+                            <br />
+                            <p className="text-md">{ProjectsData[6].description}</p>
+                            <br />
+                            < a href='{ProjectsData[6].link}' className='text-lightGreen'> See the code </a>
+                        </section>  
+                        <a href='{ProjectsData[6].link}'>
+                            <img src={require ("./images/JHMedical.jpg")} alt={ProjectsData[6].title} className="w-1/3" />
+                        </a>
+                    </div>
+                </div>
+
           </Carousel>
             </div>
         </section>

@@ -42,6 +42,13 @@ export const ProjectsData = [
         link:'https://brockhanni.github.io/Week-3-PasswordGenerator/',
         github:'https://github.com/BrockHanni/Week-3-PasswordGenerator',
     },
+    {
+        title: 'JHMedical',
+        description: 'This is a website I built for a client. It was built using react, and JWTS. It includes an about the buisness page, a login page, and a product catalog. It is still a work in progress, but it is a great example of my ability to build a full stack website.',
+
+        link: 'https://jh-medical-6686065930da.herokuapp.com/',
+        github: 'https://github.com/BrockHanni/JHMedical',
+    }
 
     
 ]
