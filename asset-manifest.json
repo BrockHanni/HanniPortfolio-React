@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/HanniPortfolio-React/static/css/main.5d3aea6f.css",
-    "main.js": "/HanniPortfolio-React/static/js/main.1d77975a.js",
-    "static/js/787.6bc3a3f5.chunk.js": "/HanniPortfolio-React/static/js/787.6bc3a3f5.chunk.js",
-    "static/media/ProfilePic.jpg": "/HanniPortfolio-React/static/media/ProfilePic.29156addb40ee4561a96.jpg",
-    "static/media/JHMedical.jpg": "/HanniPortfolio-React/static/media/JHMedical.ba952865cc6b95f0b94e.jpg",
-    "static/media/LogoMaker.jpg": "/HanniPortfolio-React/static/media/LogoMaker.8b359665f60a567292f2.jpg",
-    "static/media/Portfolio.jpg": "/HanniPortfolio-React/static/media/Portfolio.c4c84639770ec09d7646.jpg",
-    "static/media/Readme.jpg": "/HanniPortfolio-React/static/media/Readme.d9089a322bb09cad1b92.jpg",
-    "static/media/WritersCorner.jpg": "/HanniPortfolio-React/static/media/WritersCorner.5ce92925b23d774176f6.jpg",
-    "static/media/Password.jpg": "/HanniPortfolio-React/static/media/Password.f1f92a9ed0b3c1642b5e.jpg",
-    "static/media/hireMe.jpg": "/HanniPortfolio-React/static/media/hireMe.8be2ec4f0d2a3c66621a.jpg",
-    "static/media/Github.png": "/HanniPortfolio-React/static/media/Github.73d6345c930d93ec7fe2.png",
-    "static/media/instagram.png": "/HanniPortfolio-React/static/media/instagram.44867ac193b0690b899b.png",
-    "static/media/outdoors.jpg": "/HanniPortfolio-React/static/media/outdoors.712a5237cf0406e47310.jpg",
-    "index.html": "/HanniPortfolio-React/index.html",
-    "main.5d3aea6f.css.map": "/HanniPortfolio-React/static/css/main.5d3aea6f.css.map",
-    "main.1d77975a.js.map": "/HanniPortfolio-React/static/js/main.1d77975a.js.map",
-    "787.6bc3a3f5.chunk.js.map": "/HanniPortfolio-React/static/js/787.6bc3a3f5.chunk.js.map"
+    "main.css": "/static/css/main.5d3aea6f.css",
+    "main.js": "/static/js/main.24878414.js",
+    "static/js/787.6bc3a3f5.chunk.js": "/static/js/787.6bc3a3f5.chunk.js",
+    "static/media/ProfilePic.jpg": "/static/media/ProfilePic.29156addb40ee4561a96.jpg",
+    "static/media/JHMedical.jpg": "/static/media/JHMedical.ba952865cc6b95f0b94e.jpg",
+    "static/media/LogoMaker.jpg": "/static/media/LogoMaker.8b359665f60a567292f2.jpg",
+    "static/media/Portfolio.jpg": "/static/media/Portfolio.c4c84639770ec09d7646.jpg",
+    "static/media/Readme.jpg": "/static/media/Readme.d9089a322bb09cad1b92.jpg",
+    "static/media/WritersCorner.jpg": "/static/media/WritersCorner.5ce92925b23d774176f6.jpg",
+    "static/media/Password.jpg": "/static/media/Password.f1f92a9ed0b3c1642b5e.jpg",
+    "static/media/hireMe.jpg": "/static/media/hireMe.8be2ec4f0d2a3c66621a.jpg",
+    "static/media/Github.png": "/static/media/Github.73d6345c930d93ec7fe2.png",
+    "static/media/instagram.png": "/static/media/instagram.44867ac193b0690b899b.png",
+    "static/media/outdoors.jpg": "/static/media/outdoors.712a5237cf0406e47310.jpg",
+    "index.html": "/index.html",
+    "main.5d3aea6f.css.map": "/static/css/main.5d3aea6f.css.map",
+    "main.24878414.js.map": "/static/js/main.24878414.js.map",
+    "787.6bc3a3f5.chunk.js.map": "/static/js/787.6bc3a3f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d3aea6f.css",
-    "static/js/main.1d77975a.js"
+    "static/js/main.24878414.js"
   ]
 }
