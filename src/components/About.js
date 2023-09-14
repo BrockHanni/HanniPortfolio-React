@@ -7,22 +7,29 @@ import './css/About.css';
 export default function About() {
   return (
     <section>
-    <div className='flow-root mt-40'>
+    <div className=''>
       <section id="about" className=''>
-        <div className="mx-auto about-me-section float-left items-center bg-green rounded-2xl h-1/6 ml-16">
-          <h1 className="text-2xl text-center">Get to know me</h1>
-          <p className='text-md text-center'>Check out some of my hobbies on the right!</p>
-          <br></br>
-          <p className='text-md text-center'>I am a 24-year-old recent graduate from the University of Utah's full stack coding bootcamp.</p>
-          <p className='text-md text-center'>My wife and I have been married since May 2021.</p>
-          <p className='text-md text-center'>I've been coding for nearly 2 years now, and I love the way I can express myself through web development and design!</p>
-          <p className='text-md text-center'>I am a hard worker, and I love to learn new things.</p>
-        </div>
-          <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} className=" h-1/6 carousel-section float-right items-center rounded-2xl">
+        <section className='text-center'>
+          <div className="mx-auto about-me-section items-center bg-green rounded-2xl h-1/6">
+              <h1 className="text-2xl text-center">Get to know me</h1>
+
+              <p className='text-md text-center'>I am a 24-year-old recent graduate from the University of Utah's full stack coding bootcamp.</p>
+              <p className='text-md text-center'>My wife and I have been married since May 2021.</p>
+              <p className='text-md text-center'>I've been coding for nearly 2 years now, and I love the way I can express myself through web development and design!</p>
+              <p className='text-md text-center'>I am a hard worker, and I love to learn new things.</p>
+               <br></br>
+              <p className='text-md text-center'>Check out some of my hobbies below!</p>
+             
+           </div>
+        </section>
+        <br></br>
+        <br></br>
+        <section className='text-center'>
+          <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} className=" mx-auto carousel-section items-center rounded-2xl h-1/6 ">
             <div className="carousel-item">
               <div className="carousel-item-content">
                 <img
-                  className="h-1/6 selection transition-all duration-300 rounded-lg cursor-pointer "
+                  className="h-1/6 selection transition-all duration-300 rounded-lg cursor-pointer"
                   src={require ("./images/jazzlogo.jpg")}
                   alt="Utah Jazz"
                 />
@@ -113,6 +120,9 @@ export default function About() {
               </div>
             </div>
           </Carousel>
+        </section>
+
+          
           {/* link to resume, and projects, and contact */}
       </section>
     </div>

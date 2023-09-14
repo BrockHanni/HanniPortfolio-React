@@ -9,11 +9,27 @@ export default function Projects() {
         <section className='w-screen mt-20'>
          <section id="projects">
             <div className="text-center mb-10">
-                <h1 className="text-2xl font-bold text-brown">Check out my work</h1>
+                <h1 className="text-4xl font-bold text-brown">Check out my work</h1>
+                <br />
                 <p className='text-xl text-lightGreen'>Click on the images to see the app</p>
             </div>
             <div className="">
             <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} className="project-section items-center rounded-2xl">
+                        <div className="project-item">
+                            <div className="project-item-content">
+                                <section className='w-1/3'>
+                                    <h1 className="text-2xl">{ProjectsData[6].title}</h1>
+                                    <br />
+                                    <p className="text-md">{ProjectsData[6].description}</p>
+                                    <br />
+                                    < a href='{ProjectsData[6].link}' className='text-lightGreen'> See the code </a>
+                                </section>  
+                                <a href='{ProjectsData[6].link}'>
+                                    <img src={require ("./images/JHMedical.jpg")} alt={ProjectsData[6].title} className="w-1/3" />
+                                </a>
+                            </div>
+                        </div>
+
                 {/* item 1 */}
                 <div className="project-item">
                     <div className="project-item-content">
@@ -106,24 +122,12 @@ export default function Projects() {
                     </div>
                 </div>
                 {/* item 7 */}
-                <div className="project-item">
-                    <div className="project-item-content">
-                        <section className='w-1/3'>
-                            <h1 className="text-2xl">{ProjectsData[6].title}</h1>
-                            <br />
-                            <p className="text-md">{ProjectsData[6].description}</p>
-                            <br />
-                            < a href='{ProjectsData[6].link}' className='text-lightGreen'> See the code </a>
-                        </section>  
-                        <a href='{ProjectsData[6].link}'>
-                            <img src={require ("./images/JHMedical.jpg")} alt={ProjectsData[6].title} className="w-1/3" />
-                        </a>
-                    </div>
-                </div>
+
 
           </Carousel>
             </div>
         </section>
+        <br></br>
     </section>
     )
 }

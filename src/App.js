@@ -9,14 +9,28 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-
+   
     <main className="text-transparent bg-gradient-to-br from-brown via-grey to-green">
+       <title>Brock Hanni</title>
       <Header />
-      <About /> 
-      <Skills />
-      <Projects />
-      <Resume />
-      <Contact />
+      <div id="Resume">
+        <Resume />
+      </div>
+      <div id="Projects">
+        <Projects class="#Projects"/>
+      </div>
+      
+      <div id="Skills">
+         <Skills class="#Skills"/>
+      </div>
+      <br></br>
+      <br></br>
+      <div id="About">
+        <About />
+      </div>
+      <div id="Contact">
+        <Contact />
+      </div>
       <Footer />
       
     </main>
